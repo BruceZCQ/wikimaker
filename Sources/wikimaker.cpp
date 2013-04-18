@@ -1,4 +1,4 @@
-#include "wikimaker.h"
+#include "Headers/wikimaker.h"
 #include "ui_wikimaker.h"
 
 WikiMaker::WikiMaker(QWidget *parent) :

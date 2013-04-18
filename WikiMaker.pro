@@ -13,8 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        wikimaker.cpp
+    Sources/wikimaker.cpp
 
-HEADERS  += wikimaker.h
+HEADERS  +=  Headers/wikimaker.h
 
-FORMS    += wikimaker.ui
+FORMS    +=  UIs/wikimaker.ui
