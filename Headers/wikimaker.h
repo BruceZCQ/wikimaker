@@ -19,10 +19,12 @@ public:
     void keyPressEvent(QKeyEvent *e);
 
  private slots:
-    void open();
+    void openActionSlot();
+    void perferencesActionSlot();
     
 private:
     Ui::WikiMaker *ui;
+    void reflectActions();
 };
 
 #endif // WIKIMAKER_H
