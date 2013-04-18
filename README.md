@@ -2,7 +2,7 @@ wikimaker
 =========
 the WikiMaker is created by Qt5. Use the Xml and Regex, you can use the rich text editor edit the pages , and auto create the html pages, you can view the result in real time in your browser.
 
-
+------
 
 The MIT License (MIT) Copyright (c) 2013 BruceZCQ
 
