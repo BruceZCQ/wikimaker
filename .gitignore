@@ -9,7 +9,7 @@
 *.so
 *.dll
 *.dylib
-
+.D_Store
 # Qt-es
 
 *.pro.user
