@@ -94,7 +94,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
-           <widget class="QTextBrowser" name="textBrowser">
+           <widget class="QTextBrowser" name="wikiContent">
             <property name="readOnly">
              <bool>false</bool>
             </property>
@@ -107,6 +107,9 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Here is my wiki content.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://zhucongqi.cn&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;MyBlog &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; color:#ae370e;&quot;&gt;ChangeColor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="openExternalLinks">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -126,7 +129,7 @@ p, li { white-space: pre-wrap; }
              </spacer>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="makeWikiBtn">
               <property name="text">
                <string>MakeWiki</string>
               </property>
@@ -166,6 +169,7 @@ p, li { white-space: pre-wrap; }
      <string>Help</string>
     </property>
     <addaction name="actionAbout"/>
+    <addaction name="actionAboutQt"/>
     <addaction name="actionWikiMaker_Help"/>
     <addaction name="actionPreferences"/>
    </widget>
@@ -260,6 +264,11 @@ p, li { white-space: pre-wrap; }
   <action name="actionPreferences">
    <property name="text">
     <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionAboutQt">
+   <property name="text">
+    <string>About Qt</string>
    </property>
   </action>
  </widget>

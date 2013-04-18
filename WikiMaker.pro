@@ -5,17 +5,22 @@
 #-------------------------------------------------
 
 QT       += core gui \
-            webkitwidgets
+            webkitwidgets#support the QWebView
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = WikiMaker
 TEMPLATE = app
 
+#add libs
+LIBS += -L "/Users/BruceZCQ/Qt5.0.2/5.0.2/clang_64/lib"
 
 SOURCES += main.cpp\
-    Sources/wikimaker.cpp
+    Sources/wikimaker.cpp \
+    Sources/about.cpp
 
-HEADERS  +=  Headers/wikimaker.h
+HEADERS  +=  Headers/wikimaker.h \
+    Headers/about.h
 
-FORMS    +=  UIs/wikimaker.ui
+FORMS    +=  UIs/wikimaker.ui \
+    UIs/about.ui
