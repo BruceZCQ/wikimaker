@@ -4,6 +4,7 @@ the WikiMaker is created by Qt5. Use the Xml and Regex, you can use the rich tex
 
 ------
 Copyright &copy; 2013 [BruceZCQ](http://zhucongqi.cn)
+
 License under the [MIT License][mit]. 
 
 [MIT]: http://www.opensource.org/licenses/mit-license.php
