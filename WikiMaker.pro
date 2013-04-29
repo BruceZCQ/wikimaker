@@ -17,10 +17,15 @@ LIBS += -L "/Users/BruceZCQ/Qt5.0.2/5.0.2/clang_64/lib"
 
 SOURCES += main.cpp\
     Sources/wikimaker.cpp \
-    Sources/about.cpp
+    Sources/about.cpp \
+    Sources/preferences.cpp \
+    Common/wikimakerinterface.cpp
 
 HEADERS  +=  Headers/wikimaker.h \
-    Headers/about.h
+    Headers/about.h \
+    Headers/preferences.h \
+    Common/wikimakerinterface.h
 
 FORMS    +=  UIs/wikimaker.ui \
-    UIs/about.ui
+    UIs/about.ui \
+    UIs/preferences.ui

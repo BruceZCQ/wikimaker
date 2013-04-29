@@ -1,6 +1,7 @@
 #include "Headers/wikimaker.h"
 #include "ui_wikimaker.h"
 #include "Headers/about.h"
+#include "Headers/preferences.h"
 
 WikiMaker::WikiMaker(QWidget *parent) :
     QMainWindow(parent),
@@ -25,9 +26,13 @@ void WikiMaker::reflectActions(){
     About *about = new About;
     connect(ui->actionAbout,SIGNAL(triggered()),
             about,SLOT(exec()));
-    //qt about
+     //qt about
     connect(ui->actionAboutQt,SIGNAL(triggered()),
             this,SLOT(aboutQtActionSlot()));
+    //preference action refect
+    Preferences *preferences = new Preferences;
+    connect(ui->actionPreferences,SIGNAL(triggered()),
+            preferences,SLOT(exec()));
 }
 
 WikiMaker::~WikiMaker()

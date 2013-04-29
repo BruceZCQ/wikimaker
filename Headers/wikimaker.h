@@ -4,12 +4,13 @@
 #include <QtCore>
 #include <QtGui>
 #include <QMainWindow>
+#include "Common/wikimakerinterface.h"
 
 namespace Ui {
 class WikiMaker;
 }
 
-class WikiMaker : public QMainWindow
+class WikiMaker : public QMainWindow,WikiMakerInterface
 {
     Q_OBJECT
     
