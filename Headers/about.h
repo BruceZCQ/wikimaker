@@ -14,8 +14,6 @@ class About : public QDialog
 public:
     explicit About(QWidget *parent = 0);
     ~About();
-private slots:
-    void closeAboutAction();
 private:
     Ui::About *ui;
 };

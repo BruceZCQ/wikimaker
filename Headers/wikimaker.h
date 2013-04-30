@@ -21,9 +21,7 @@ public:
 
  private slots:
     void openActionSlot();
-    void perferencesActionSlot();
     void makeWikiActionSlot();
-    void aboutQtActionSlot();
     
 private:
     Ui::WikiMaker *ui;

@@ -6,6 +6,7 @@ Preferences::Preferences(QWidget *parent) :
     ui(new Ui::Preferences)
 {
     ui->setupUi(this);
+    //connect the signals and slots
     reflectActions();
 }
 

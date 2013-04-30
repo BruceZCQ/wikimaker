@@ -7,14 +7,10 @@ About::About(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->closeAboutBtn,SIGNAL(clicked()),
-            this,SLOT(closeAboutAction()));
+            this,SLOT(accept()));
 }
 
 About::~About()
 {
     delete ui;
-}
-
-void About::closeAboutAction(){
-    this->accept();
 }
